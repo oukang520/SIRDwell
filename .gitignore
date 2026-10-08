@@ -1,0 +1,21 @@
+# Local environments and Python/build caches
+.venv*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.DS_Store
+
+# Local inputs and generated results
+/data/
+/outputs/
+/results/
+/reference_results/
+/submission_figures/
+*.log
+
+# Local credentials
+.env
+.env.*

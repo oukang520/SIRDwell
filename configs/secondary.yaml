@@ -1,0 +1,15 @@
+cross_sectional_root: outputs/cross_sectional
+prepared_data_root: data/prepared/cross_sectional
+output_root: outputs/secondary
+cohorts:
+  - AACR_LUAD
+  - AACR_COAD
+  - AACR_IDC
+
+analysis:
+  top_k: 10
+  inflow_shuffle_replicates: 400
+  random_seed: 20260630
+  topology_routes: 6
+  minimum_state_count: 5
+  minimum_inflow: 1.0e-8

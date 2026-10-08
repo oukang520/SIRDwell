@@ -1,0 +1,30 @@
+data_root: data/prepared/cross_sectional
+output_root: outputs/cross_sectional
+cohorts:
+  - AACR_LUAD
+  - AACR_COAD
+  - AACR_IDC
+
+event_panels:
+  AACR_LUAD: [TP53, KRAS, EGFR, STK11, KEAP1, RBM10, NF1, BRAF, SMARCA4, PIK3CA, MET, CDKN2A, ATM, ARID1A, SETD2]
+  AACR_COAD: [APC, TP53, KRAS, PIK3CA, SMAD4, BRAF, FBXW7, SOX9, ARID1A, TCF7L2, RNF43, PTEN, CTNNB1, NRAS, TGFBR2]
+  AACR_IDC: [TP53, PIK3CA, GATA3, MAP3K1, PTEN, ESR1, AKT1, NF1, BRCA1, BRCA2, RB1, MAP2K4, CBFB, RUNX1, ATM]
+
+score:
+  minimum_state_count: 5
+  minimum_inflow: 1.0e-8
+  high_confidence_state_count: 10
+  epsilon: 1.0e-12
+
+mhn:
+  lambda_multipliers: [0.1, 0.3, 1.0, 3.0, 10.0]
+  cv_folds: 5
+  pick_1se: true
+  max_iterations: 5000
+  relative_tolerance: 1.0e-7
+  random_seed: 20260630
+
+analysis:
+  bootstrap_replicates: 500
+  bootstrap_top_k: 10
+  top_state_count: 25

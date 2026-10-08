@@ -1,0 +1,55 @@
+experiment_name: longitudinal_public_real_cohort_validation
+result_root: outputs/longitudinal
+data_root: data/longitudinal/cbioportal
+random_seed: 20260827
+
+studies:
+  difg_glass:
+    short_name: GLASS
+    display_name: Diffuse glioma longitudinal cohort
+    disease_context: primary-recurrent glioma
+    order_rule: glioma_recurrence
+    analysis_overrides:
+      max_events: 8
+  coadread_mskcc:
+    short_name: CRC-triplets
+    display_name: Colorectal primary-metastasis triplets
+    disease_context: colorectal primary-metastasis evolution
+    order_rule: colorectal_primary_metastasis
+  mnm_washu_2016:
+    short_name: MNM-WashU
+    display_name: WashU myeloid neoplasm paired samples
+    disease_context: paired myeloid neoplasm evolution
+    order_rule: paired_sample_suffix
+    analysis_overrides:
+      max_events: 10
+      min_state_count: 1
+      high_confidence_state_count: 2
+
+analysis:
+  max_events: 12
+  min_events_for_mhn: 5
+  min_event_frequency: 0.005
+  min_event_support: 2
+  min_state_count: 2
+  minimum_inflow: 1.0e-8
+  high_confidence_state_count: 4
+  top_states_per_study: 8
+  bootstrap_replicates: 1000
+  primary_validation_studies: [difg_glass, coadread_mskcc]
+  supplementary_validation_studies: [mnm_washu_2016]
+  validation_seed_overrides:
+    difg_glass: 20260827
+    coadread_mskcc: 20260827
+    mnm_washu_2016: 20260828
+  pair_qc:
+    exclude_event_loss: true
+    rationale: remove adjacent pairs with apparent selected-driver loss because this violates the monotone progression assumption used by MHN-style state topology.
+
+mhn:
+  # Freeze the backend that generated the selected E17 reference results.
+  enabled: false
+  fixed_lambda_multiplier: 1.0
+  max_iterations: 1500
+  relative_tolerance: 1.0e-6
+  fallback: frequency_cooccurrence_backbone

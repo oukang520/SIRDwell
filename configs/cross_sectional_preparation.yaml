@@ -1,0 +1,13 @@
+source_root: data/cross_sectional_harmonized
+output_root: data/prepared/cross_sectional
+dataset_version: AACR Project GENIE v18.0-public
+minimum_state_count: 5
+selection_rule: legacy_curated_driver_priority_p15_frozen_before_model_fit
+
+cohorts:
+  AACR_LUAD:
+    events: [TP53, KRAS, EGFR, STK11, KEAP1, RBM10, NF1, BRAF, SMARCA4, PIK3CA, MET, CDKN2A, ATM, ARID1A, SETD2]
+  AACR_COAD:
+    events: [APC, TP53, KRAS, PIK3CA, SMAD4, BRAF, FBXW7, SOX9, ARID1A, TCF7L2, RNF43, PTEN, CTNNB1, NRAS, TGFBR2]
+  AACR_IDC:
+    events: [TP53, PIK3CA, GATA3, MAP3K1, PTEN, ESR1, AKT1, NF1, BRCA1, BRCA2, RB1, MAP2K4, CBFB, RUNX1, ATM]

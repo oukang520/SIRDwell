@@ -1,0 +1,19 @@
+output_root: outputs/simulation/dwell_gradient
+event_count: 15
+pilot_samples: 30000
+samples_per_repeat: 5000
+repeats: 60
+dwell_levels: [0.25, 0.5, 1.0, 2.0, 4.0]
+states_per_level: 5
+maximum_time: 10.0
+maximum_events: 8
+theta_sparsity: 0.10
+minimum_pilot_count: 25
+event_count_1_states: 8
+event_count_2_states: 12
+event_count_3_4_states: 5
+event_count_1_minimum_count: 80
+event_count_2_minimum_count: 45
+random_seed: 20260901
+minimum_state_count: 5
+minimum_inflow: 1.0e-8

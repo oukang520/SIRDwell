@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sirdwell"
+version = "0.2.0"
+description = "State Inflow Relative Dwell: inflow-adjusted relative state dwell estimation"
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "numpy>=1.24",
+  "pandas>=2.0",
+  "PyYAML>=6.0",
+  "scipy>=1.11",
+]
+
+[project.optional-dependencies]
+mhn = ["mhn==1.2.3"]
+test = ["pytest>=7.0"]
+
+[project.urls]
+Repository = "https://github.com/oukang520/SIRDwell"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

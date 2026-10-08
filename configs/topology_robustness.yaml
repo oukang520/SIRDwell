@@ -1,0 +1,16 @@
+output_root: outputs/simulation/topology_robustness
+event_count: 12
+topologies: [linear, branching, mutual_exclusivity, mixed]
+sparsities: [0.05, 0.10, 0.20]
+placements: [early, middle, late]
+dwell_levels: [0.25, 0.5, 1.0, 2.0, 4.0]
+states_per_level: 2
+pilot_samples: 12000
+samples_per_repeat: 3000
+repeats: 10
+maximum_time: 10.0
+maximum_events: 7
+minimum_pilot_count: 8
+random_seed: 20260901
+minimum_state_count: 5
+minimum_inflow: 1.0e-8
