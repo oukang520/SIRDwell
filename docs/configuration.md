@@ -130,7 +130,7 @@ Outputs contain generating-backbone, implanted-truth, repeat-level score, recove
 | `coadread_mskcc` | CRC-triplets | Primary samples before metastases | Shared defaults |
 | `mnm_washu_2016` | MNM-WashU | Numeric sample-ID suffix, with `-1` as baseline | `max_events: 10`, minimum state count `1`, high-confidence count `2` |
 
-Place standard cBioPortal tab-separated exports in `data/longitudinal/cbioportal/<study>/`:
+Install the bundled unchanged cBioPortal inputs with `python -m experiments.install_data`. Source versions, data licenses and checksums are described in [the data guide](../data/README.md). The installer restores standard cBioPortal tab-separated exports in `data/longitudinal/cbioportal/<study>/`:
 
 | File | Required fields | Use |
 | --- | --- | --- |
@@ -167,6 +167,6 @@ For a separate patient-grouped cross-fitting analysis, `workflows/longitudinal_p
 
 ## Result serialization and licensing
 
-Workflows return tables to Python callers and write them when an output directory is configured. Result files include TSV tables, resolved settings, model/backend metadata, runtime input/environment metadata, and checksums as appropriate to the entry point. These are generated scientific outputs; input data and generated outputs are not distributed in the source repository.
+Workflows return tables to Python callers and write them when an output directory is configured. Result files include TSV tables, resolved settings, model/backend metadata, runtime input/environment metadata, and checksums as appropriate to the entry point. These are generated scientific outputs and are not distributed in the source repository. The three longitudinal input snapshots are distributed separately under `data/raw/`; GENIE inputs require provider access as explained in the data guide.
 
 The project license has not yet been designated. See [LICENSE_NOTICE.md](../LICENSE_NOTICE.md); dataset and dependency licenses remain applicable independently.

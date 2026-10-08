@@ -1,0 +1,121 @@
+#Patient Identifier	Source	Disease	Age at Diagnosis	Sex	Peripheral blood WBC	Peripheral Blasts Percentage	Bone Marrow Leukemic Blast Percentage	AML FAB 	Prior Treatment	Clinical onset (AML cases only)	IPSS (MDS cases only)	Transplant	Morphologic Response	Cytogenetic Reponse	Cycles Completed	Overall Survival (Months)	Overall Survival Status	Cytogenetic Risk	Karyotype	Performance Status
+#Identifier to uniquely specify a patient.	Source	Disease	Age at Diagnosis	Sex	Perpheral blood white blood cells.	Peripheral blasts percentage.	Bone marrow leukemic percentage.	AML into subtypes are the French-American-British (FAB) classification (not available with UC cases)	Prior treatment.	Clinical onset (AML cases only)	IPSS (MDS cases only)	Transplant.	Morphologic Response.	Cytogenetic Response.	Cycles Completed.	Overall Survival (Months)	Overall patient survival status.	Cytogenetic Risk	Karyotype.	Performance Status.
+#STRING	STRING	STRING	NUMBER	STRING	NUMBER	NUMBER	STRING	STRING	STRING	STRING	STRING	STRING	STRING	STRING	NUMBER	NUMBER	STRING	STRING	STRING	STRING
+#1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1	1
+PATIENT_ID	SOURCE	DISEASE	AGE_AT_DIAGNOSIS	SEX	PERIPHERAL_BLOOD_WBC	PERIPHERAL_BLASTS_PERCENTAGE	BONE_MARROW_LEUKEMIC_BLAST_PERCENTAGE	AML_FAB	PRIOR_TREATMENT	CLINICAL_ONSET_AML	IPSS_MDS	TRANSPLANT	MORPHOLOGIC_RESPONSE	CYTOGENETIC_RESPONSE	CYCLES_COMPLETED	OS_MONTHS	OS_STATUS	CYTOGENETIC_RISK	KYRYOTYPE	PERFORMANCE_STATUS
+mnm_washu_2016_36	WashU_on_study	AML	75.3	Female	17.1	60.0	49	AML with maturation (M2)		Therapy-related		No	Not evaluable		0.5	1.2	1:DECEASED	Adverse	Complex; del 5q, +1, +11	1
+mnm_washu_2016_218	WashU_on_study	AML	50.4	Male	36.2	2.0	63	AML with myelodysplasia related changes		MDS/MPD related		No	Not evaluable		1.0	7.266666667000001	1:DECEASED	Not available	Not available	2
+mnm_washu_2016_1001	WashU_on_study	MDS	83.5	Male	1.2	0.0	16	refractory anemia with excess blasts-2	Azacitidine x 1 cycle		2.0	No	PD		1.0	1.6	1:DECEASED	Int	normal	1
+mnm_washu_2016_1002	WashU_on_study	AML	74.4	Female	14.9	27.0	24	AML with maturation (M2)		MDS/MPD related		No	CRi		2.0	1.966666667	1:DECEASED	Adverse	Del 7q  85%	2
+mnm_washu_2016_1003	WashU_on_study	AML	88.5	Male	4.8	17.0	40	Acute myelomonocytic leukemia (AMML - M4)		De novo		No	PR		7.0	10.26666667	1:DECEASED	Int	trisomy 8 85%	1
+mnm_washu_2016_1004	WashU_on_study	AML	72.4	Male	2.0	2.0	57	AML with myelodysplasia related changes		De novo		No	CR	CCR	8.0	11.8	1:DECEASED	Adverse	Complex; del5q 80%, del17p 81%, del 13q 73%	1
+mnm_washu_2016_1005	WashU_on_study	Relapsed_AML	57.1	Female	1.9	0.0	56	AML without maturation (M1)	7+3, HiDAC, desatinib maintenance	De novo		No	PR		6.0	15.1	1:DECEASED	Good	CBFB 40%	1
+mnm_washu_2016_1006	WashU_on_study	AML	68.5	Male	0.7	0.0	23	AML with maturation (M2)	Azacitidine x 2 cycles	De novo		Yes	SD		1.0	8.666666667000001	1:DECEASED	Int	Del 6 - 27%	1
+mnm_washu_2016_1007	WashU_on_study	AML	74.0	Male	13.9	31.0	64	AML with maturation (M2)		De novo		No	Not evaluable		0.5	0.5	1:DECEASED	Int	Normal	1
+mnm_washu_2016_1008	WashU_on_study	AML	84.1	Female	7.7	20.0	35	AML with myelodysplasia related changes	5 day Decitabine x 1 cycle	De novo		No	PR		4.0	5.0	1:DECEASED	Adverse	Complex; inv(3), -7	2
+mnm_washu_2016_1009	WashU_on_study	AML	77.3	Female	6.8	34.0	57	Acute monoblastic (M5a) and monocytic (M5b) leukemia		De novo		No	CR	CCR	7.0	10.0	1:DECEASED	Good	AML1 80.5%	0
+mnm_washu_2016_1010	WashU_on_study	AML	79.1	Male	0.6	0.0	54	AML with maturation (M2)		De novo		No	CR		16.0	25.1	1:DECEASED	Int	Normal	1
+mnm_washu_2016_1011	WashU_on_study	AML	75.4	Male	1.5	0.0	22	AML with myelodysplasia related changes		MDS/MPD related		Yes	CRi		2.0	19.43333333	1:DECEASED	Int	Normal	0
+mnm_washu_2016_1012	WashU_on_study	AML	74.8	Male	1.8	0.0	69	AML with minimal differentiation (M0)	7+3, HiDAC, oral Clofarabine x 5 cycles	De novo		No	PD		1.0	14.73333333	1:DECEASED	Int	Trisomy 13 80%	unknown
+mnm_washu_2016_1013	WashU_on_study	Relapsed_AML	74.2	Male	1.8	30.0	57	AML with maturation (M2)	CPX-351. NK cell infusion	MDS/MPD related		No	CRi		2.0	3.233333333	1:DECEASED	Adverse	Complex; del5, del 6, -12, -16, -17, -18	1
+mnm_washu_2016_1014	WashU_on_study	MDS	85.7	Male	2.4	2.0	8	refractory anemia with excess blasts-2	Azacitidine x 1 cycle		3.0	No	CR	CCR	17.0	19.93333333	1:DECEASED	Adverse	Complex; 5q 74%	1
+mnm_washu_2016_1016	WashU_on_study	AML	64.5	Male	1.0	0.0	40	AML with minimal differentiation (M0)	7+3	De novo		No	PR		2.0	2.9666666669999997	1:DECEASED	Int	Normal	2
+mnm_washu_2016_1017	WashU_on_study	AML	71.0	Male	1.0	3.0	37	AML not otherwise specified		De novo		No	CRi	CCR	9.0	10.6	1:DECEASED	Adverse	Del17q 49%	1
+mnm_washu_2016_1018	WashU_on_study	AML	83.1	Male	15.9	76.0	89	AML without maturation (M1)		De novo		No	SD		1.0	1.5666666669999998	1:DECEASED	Int	t(1;6), +8[18], +13[4]	1
+mnm_washu_2016_1019	WashU_on_study	MDS	57.9	Female	2.9	4.0	9	refractory anemia with excess blasts-2			3.0	Yes	mCR	CCR	3.0	28.56666667	0:LIVING	Adverse	Complex; del5q 80%, mono12p 76%	1
+mnm_washu_2016_1020	WashU_on_study	AML	61.4	Male	54.9	14.0	69	Acute myelomonocytic leukemia (AMML - M4)		De novo		No	Not evaluable		0.5	27.86666667	0:LIVING	Good	CBFB Rearrangement 68%	2
+mnm_washu_2016_1021	WashU_on_study	AML	73.4	Male	21.4	26.0	76	AML with maturation (M2)		De novo		No	CRi		4.0	7.8	1:DECEASED	Int	Normal	1
+mnm_washu_2016_1022	WashU_on_study	AML	88.4	Female	1.9	16.0	57	AML with minimal differentiation (M0)		De novo		No	SD		2.0	2.266666667	1:DECEASED	Int	Normal cyto and FISH	2
+mnm_washu_2016_1023	WashU_on_study	MDS	61.9	Male	1.4	4.0	11	refractory anemia with excess blasts-2			3.0	No	mCR	CCR	9.0	12.93333333	1:DECEASED	Adverse	Complex; del 5q-85%	1
+mnm_washu_2016_1024	WashU_on_study	AML	73.2	Female	19.7	65.0	81	AML with maturation (M2)		De novo		No	CRi		2.0	4.6	1:DECEASED	Adverse	Normal cyto; FISH 17q-9%	1
+mnm_washu_2016_1025	WashU_on_study	MDS	31.1	Male	1.3	0.0	11	refractory anemia with excess blasts-2			2.0	Yes	SD		2.0	25.06666667	0:LIVING	Int	Normal	0
+mnm_washu_2016_1026	WashU_on_study	AML	84.2	Female	2.8	0.0	16	AML not otherwise specified		De novo		No	Not evaluable		0.5	0.7333333329999999	1:DECEASED	Adverse	Del 17q 84%	2
+mnm_washu_2016_1027	WashU_on_study	AML	54.0	Female	0.5	0.0	65	AML without maturation (M1)	7+3. MitoEC	De novo		Yes	SD		2.0	14.86666667	1:DECEASED	Int	Normal	2
+mnm_washu_2016_1028	WashU_on_study	MDS	67.7	Female	38.1	18.0	11	refractory anemia	Jakafi	MDS/MPD related	1.5	No	SD		2.0	21.76666667	0:LIVING	Int	Normal	1
+mnm_washu_2016_1029	WashU_on_study	Relapsed_AML	85.3	Male	2.1	7.0	73	Therapy-related myeloid neoplasms	ATRA/Arsenic.	Therapy-related		No	Not evaluable		0.5	1.033333333	1:DECEASED	Int	Normal	2
+mnm_washu_2016_1030	WashU_on_study	MDS	81.5	Female	3.3	3.0	6	refractory anemia			0.0	No	SD		1.0	4.333333333	1:DECEASED	Int	IGH 32.5%	1
+mnm_washu_2016_1031	WashU_on_study	Relapsed_AML	69.3	Female	5.6	1.0	60	AML with myelodysplasia related changes	7+3. HiDAC. CLAG	Therapy-related		No	SD		1.0	2.0	1:DECEASED	Adverse	Del5q 25%, del17 25%	2
+mnm_washu_2016_1032	WashU_on_study	AML	81.4	Female	97.3	30.0	82	Acute monoblastic (M5a) and monocytic (M5b) leukemia		De novo		No	SD		1.0	1.2	1:DECEASED	Int	Normal	1
+mnm_washu_2016_1033	WashU_on_study	AML	80.7	Female	58.7	30.0	66	Acute myelomonocytic leukemia (AMML - M4)		De novo		No	Not evaluable		0.5	1.2	1:DECEASED	Int	Normal	2
+mnm_washu_2016_1034	WashU_on_study	AML	81.2	Female	1.5	0.0	28	AML with myelodysplasia related changes		De novo		No	Not evaluable		0.5	0.833333333	1:DECEASED	Int	Normal	0
+mnm_washu_2016_1035	WashU_on_study	AML	73.6	Female	1.1	0.0	35	AML without maturation (M1)		MDS/MPD related		No	CRi		2.0	19.33333333	1:DECEASED	Int	Normal	1
+mnm_washu_2016_1036	WashU_on_study	AML	72.9	Male	0.9	0.0	37	AML with myelodysplasia related changes		De novo		Yes	CRi	CCR	9.0	21.03333333	0:LIVING	Int	Trisomy 8-31.5%	1
+mnm_washu_2016_1037	WashU_on_study	AML	82.0	Male	2.0	0.0	20	AML with myelodysplasia related changes		MDS/MPD related		No	CRi		1.0	14.5	0:LIVING	Adverse	Del5q 17.5%; monosomy 7 18%	1
+mnm_washu_2016_1038	WashU_on_study	AML	63.9	Female	3.7	0.0	hemodilute	Acute myelomonocytic leukemia (AMML - M4)		MDS/MPD related		Yes	SD		7.0	18.36666667	1:DECEASED	Int	Normal	1
+mnm_washu_2016_1039	WashU_on_study	MDS	73.9	Male	2.2	0.0	1	refractory anemia			0.5	No	SD		1.0	19.23333333	0:LIVING	Int	Trisomy 8 40%	1
+mnm_washu_2016_1040	WashU_on_study	Relapsed_AML	76.7	Male	4.0	0.0	21	acute myeloid leukemia subtype M5a	Clofarabine x 2 cycles. NK cell infusion	De novo		No	SD		2.0	3.333333333	1:DECEASED	Adverse	Del 11q 48%	0
+mnm_washu_2016_1041	WashU_on_study	MDS	69.1	Female	3.0	1.0	9	refractory anemia with excess blasts-2			2.0	Yes	CR		5.0	19.36666667	0:LIVING	Adverse	XY, +2, t(3;21), +der21t(3;21)	0
+mnm_washu_2016_1042	WashU_on_study	MDS	78.5	Male	0.6	0.0	16	refractory anemia with excess blasts-2			1.0	No	mCR		6.0	13.83333333	0:LIVING	Int	Del20q 92.5%	0
+mnm_washu_2016_1043	WashU_on_study	Relapsed_AML	74.3	Female	3.6	0.0	14	AML not otherwise specified	7+3. HiDAC. FLAG. NK cell infusion	De novo		No	SD		2.0	17.1	0:LIVING	Int	Trisomy 4 12%, Trisomy 8 9%	0
+mnm_washu_2016_1044	WashU_on_study	AML	69.4	Female	30.6	0.0	30	Acute myelomonocytic leukemia (AMML - M4)		De novo		No	CRi		1.0	1.533333333	1:DECEASED	Int	Tetrasomy 7 2.5%	1
+mnm_washu_2016_1045	WashU_on_study	AML	71.0	Male	1.6	1.0	21	AML with myelodysplasia related changes		MDS/MPD related		No	CRi		4.0	19.7	0:LIVING	Int	Normal/npm1 positive	0
+mnm_washu_2016_1046	WashU_on_study	MDS	74.5	Male	2.6	0.0	4	refractory anemia	Revlimid x 1 cycle		0.5	No	Not evaluable		0.5	1.533333333	1:DECEASED	Int	Del 5q 40%	0
+mnm_washu_2016_1047	WashU_on_study	MDS	47.2	Female	4.3	1.0	7	refractory anemia with excess blasts-2			3.0	Yes	mCR	CCR	3.0	10.06666667	1:DECEASED	Adverse	Complex; -5, -7, -11, del12	0
+mnm_washu_2016_1048	WashU_on_study	AML	67.0	Female	10.9	13.0	55	AML with minimal differentiation (M0)		De novo		Yes	CRi	CCR	3.0	18.43333333	0:LIVING	Adverse	Complex; XY, add(3), add(4), -5, -7, -10, -15, add(17), -18, -20, +22	1
+mnm_washu_2016_1049	WashU_on_study	AML	81.2	Male	1.4	0.0	39	AML with myelodysplasia related changes		MDS/MPD related		No	CR	CCR	12.0	20.56666667	0:LIVING	Int	Normal	1
+mnm_washu_2016_1050	WashU_on_study	MDS	58.6	Male	2.2	0.0	5	refractory anemia			1.5	Yes	PD		1.0	21.1	0:LIVING	Adverse	7q	0
+mnm_washu_2016_1051	WashU_on_study	MDS	61.4	Male	30.1	8.0	7	refractory anemia with excess blasts-1			1.5	Yes	mCR	CCR	3.0	17.53333333	0:LIVING	Adverse	11q 73.5%	1
+mnm_washu_2016_1052	WashU_on_study	MDS	65.4	Male	2.7	0.0	8	refractory anemia with excess blasts-2			2.0	Yes	mCR		2.0	10.1	0:LIVING	Adverse	Del5q 78%; mono7 72%	1
+mnm_washu_2016_1053	WashU_on_study	AML	79.4	Female	2.7	3.0	41	AML not otherwise specified		De novo		No	PR		2.0	2.666666667	1:DECEASED	Adverse	Del 5q 90%	2
+mnm_washu_2016_1054	WashU_on_study	MDS	78.7	Female	60.8	14.0	18	chronic myelomonocytic leukemia			0.5	No	Not evaluable		0.5	1.4333333330000002	1:DECEASED	Int	Normal	1
+mnm_washu_2016_1055	WashU_on_study	AML	80.8	Male	74.8	30.0	56	AML not otherwise specified		De novo		No	CRi	CCR	1.0	1.6	1:DECEASED	Adverse	XX,+8,+8, add(14),-18[8], XX[12]	1
+mnm_washu_2016_1056	WashU_on_study	AML	84.2	Female	10.1	26.0	32	Acute megakaryoblastic (M7) leukemia	Jakafi	MDS/MPD related		No	Not evaluable		0.5	1.333333333	1:DECEASED	Int	TRISOMY 20q 85%	1
+mnm_washu_2016_1057	WashU_on_study	MDS	62.9	Male	12.2	0.0	4	refractory anemia			0.5	Yes	SD		3.0	18.73333333	0:LIVING	Adverse	Mono 7 42.5%	0
+mnm_washu_2016_1058	WashU_on_study	AML	79.4	Male	6.7	11.0	28	AML with myelodysplasia related changes		De novo		No	CRi	CCR	2.0	17.46666667	0:LIVING	Int	21	1
+mnm_washu_2016_1059	WashU_on_study	AML	79.3	Female	17.1	88.0	51	AML with maturation (M2)		De novo		No	PR		2.0	3.366666667	1:DECEASED	Int	Trisomy 8	2
+mnm_washu_2016_1061	WashU_on_study	MDS	79.5	Female	44.3	3.0	11	chronic myelomonocytic leukemia			1.0	No	mCR		3.0	11.2	0:LIVING	Adverse	Del5q 92%;Del7q 98.5%	1
+mnm_washu_2016_1062	WashU_on_study	AML	67.0	Male	1.4	0.0	27	AML with maturation (M2)		De novo		Yes	CRi	CCR	5.0	12.16666667	0:LIVING	Adverse	Complex; -5, -7, -11, -13, -14, -15, -16, -17, -18, -19, -20, -21	0
+mnm_washu_2016_1063	WashU_on_study	MDS	66.4	Female	3.0	16.0	11	refractory anemia with excess blasts-2	lumpectomy right breast (breast cancer). Carboplatin/Taxotere. Herceptin. Radiation to right breast.		2.5	No	mCR		2.0	8.3	1:DECEASED	Adverse	Del5q 41%; monosomy7 52%	0
+mnm_washu_2016_1064	WashU_on_study	AML	83.3	Female	2.0	17.0	69	AML with myelodysplasia related changes		MDS/MPD related		No	PR		2.0	3.866666667	1:DECEASED	Int	Trisomy 13	2
+mnm_washu_2016_1065	WashU_on_study	MDS	74.0	Male	4.0	3.0	14	refractory anemia with excess blasts-2			3.0	Yes	mCR	CCR	6.0	10.93333333	0:LIVING	Adverse	Complex; del 16q 73.5%	0
+mnm_washu_2016_1066	WashU_on_study	MDS	66.8	Male	3.8	0.0	3	refractory anemia with excess blasts-1			1.5	No	mCR	CCR	3.0	10.23333333	0:LIVING	Adverse	Del5q 63.5%; mono7 67%	0
+mnm_washu_2016_1067	WashU_on_study	AML	63.6	Male	4.9	9.0	26	Therapy-related myeloid neoplasms	Cytoxan/Cellcept for Wegener's granulomatosis	Therapy-related		Yes	CRi		3.0	7.933333332999999	0:LIVING	Int	-18	1
+mnm_washu_2016_1068	WashU_on_study	MDS	73.8	Male	2.1	2.0	5	refractory anemia			1.0	No	mCR		2.0	3.1	1:DECEASED	Adverse	Tri5p,Tri8,del5q,del7q	0
+mnm_washu_2016_1069	WashU_on_study	Relapsed_AML	73.5	Female	1.4	8.0	11	AML without maturation (M1)	7+3. HIDAC. NK cell infusion. Decitabine 5 days x 1 cycle	De novo		No	SD		1.0	4.666666667	1:DECEASED	Int	Complex; Trisomy 10 (16.5%)	2
+mnm_washu_2016_1070	WashU_on_study	AML	77.9	Male	7.2	13.0	46	Acute myelomonocytic leukemia (AMML - M4)		De novo		No	PR		2.0	4.166666667	0:LIVING	Int	Normal	1
+mnm_washu_2016_1072	WashU_on_study	AML	76.5	Male	3.1	3.0	30	AML with myelodysplasia related changes	Azacitidine x 1 cycle	De novo		No	CRi	CCR	2.0	8.0	0:LIVING	Adverse	Complex, mono 5 42%, tetrasomy 8 32%, trisomy 8 12%	0
+mnm_washu_2016_1073	WashU_on_study	AML	71.7	Female	4.1	0.0	22	AML with maturation (M2)		De novo		Yes	CRi		4.0	9.866666667	0:LIVING	Int	Normal cyto/normal FISH	0
+mnm_washu_2016_1074	WashU_on_study	AML	70.8	Male	2.1	0.0	8	AML with maturation (M2)		De novo		Yes	CRi	CCR	4.0	10.53333333	0:LIVING	Adverse	Trisomy 7q 7.5%	0
+mnm_washu_2016_1076	WashU_on_study	AML	76.3	Male	2.0	15.0	70	AML without maturation (M1)		De novo		No	CR		4.0	7.733333332999999	0:LIVING	Adverse	Complex; X, -Y, add(2), add(4), add(5), -7, -13, -17, -21, +1 ~2mar	2
+mnm_washu_2016_1077	WashU_on_study	MDS	81.4	Female	16.8	20.0	20	refractory anemia with excess blasts-2	Decitabine x 1 cycle. Ruxolitinib/hyroxyurea		0.5	No	CRi		4.0	4.666666667	1:DECEASED	Int	Normal	0
+mnm_washu_2016_1078	WashU_on_study	MDS	80.6	Male	1.7	0.0	11	refractory anemia with excess blasts-2			2.5	No	mCR		3.0	6.033333333	0:LIVING	Int	Normal	0
+mnm_washu_2016_1079	WashU_on_study	AML	76.5	Male	39.5	0.0	50	Acute monoblastic (M5a) and monocytic (M5b) leukemia		De novo		No	CR		6.0	7.666666667	1:DECEASED	Int	Normal	1
+mnm_washu_2016_1080	WashU_on_study	AML	65.1	Female	2.3	10.0	13	Acute erythroid (M6) leukemia		De novo		Yes	CRi	CCR	3.0	10.1	0:LIVING	Adverse	Complex; del5q 80%, mono 7 64%, del 12p 77%	0
+mnm_washu_2016_1083	WashU_on_study	AML	78.6	Male	14.3	62.0	90	AML with minimal differentiation (M0)		MDS/MPD related		No	Not evaluable		1.0	1.4333333330000002	1:DECEASED	Adverse	XX, -X, -3, add(3), -4, -5, -5, -7, add(8), -9, -11, -12, -17, -18, -2, -21, -22, +2~7mar	1
+mnm_washu_2016_1084	WashU_on_study	AML	82.6	Male	5.8	0.0	46	AML without maturation (M1)		De novo		No	CR	CCR	4.0	6.733333332999999	0:LIVING	Int	-8	0
+mnm_washu_2016_1085	WashU_on_study	MDS	52.3	Male	1.9	2.0	12	refractory anemia with excess blasts-2			3.0	Yes	mCR		3.0	7.7	0:LIVING	Adverse	Complex; XX, -3, add(3), del(5), -6, add(9), -17, -18, -19, -20, -22, add(22), +1~5mar. FISH del5 45%	2
+mnm_washu_2016_1088	WashU_on_study	AML	75.0	Female	1.0	0.0	75	AML with minimal differentiation (M0)		De novo		No	CRi		2.0	3.0333333330000003	1:DECEASED	Int	Failed. Clinical FLT3, IDH, NPM1, DNMT3A neg	1
+mnm_washu_2016_1089	WashU_on_study	MDS	72.2	Female	1.3	0.0	12	refractory anemia with excess blasts-2			2.5	No	mCR		4.0	6.333333333	0:LIVING	Int	XY, +8[17], XY[3]	0
+mnm_washu_2016_1090	WashU_on_study	Relapsed_AML	74.3	Male	2.9	0.0	2	Acute panmyelosis with myelofibrosis	7+3	De novo		No	SD		2.0	4.033333333	0:LIVING	Int	Normal	2
+mnm_washu_2016_PPI023	WashU_off_protocol	Relapsed_AML	63.0	Male	2.2	0.0	38	AML with myelodysplasia related changes	7+3	De novo		No	SD		8.0	9.5	1:DECEASED	Int	-12,+1~2mar	unknown
+mnm_washu_2016_PPI025	WashU_off_protocol	AML	65.0	Male	2.4	18.0	68	AML without maturation (M1)		De novo		Yes	SD		2.0	68.6	0:LIVING	Int	inv(9)	unknown
+mnm_washu_2016_505186	WashU_off_protocol	AML	68.0	Female	3.2	0.0	33	AML with maturation (M2)		MDS/MPD related		No	SD		8.0	27.06666667	1:DECEASED	Int	normal	unknown
+mnm_washu_2016_548417	WashU_off_protocol	AML	77.0	Male	66.0	93.0	95	AML without maturation (M1)		Therapy-related		No	PD			3.666666667	1:DECEASED	Int	normal	unknown
+mnm_washu_2016_654840	WashU_off_protocol	Relapsed_AML	83.0	Male	9.1	20.0	86	AML with maturation (M2)	Hydrea for polycythemia vera	MDS/MPD related		No	SD			5.9	1:DECEASED	Int	normal	unknown
+mnm_washu_2016_692847	WashU_off_protocol	Relapsed_AML	74.0	Male	1.2	0.0	36	AML with maturation (M2)		MDS/MPD related		No	PD		11.0	22.8	1:DECEASED	Int	normal	unknown
+mnm_washu_2016_790809	WashU_off_protocol	AML	76.0	Female	1.9	0.0	15	Acute megakaryoblastic leukemia (M7)		De novo		No	CRi			7.033333333	1:DECEASED	Int	normal 5/5	unknown
+mnm_washu_2016_PPI019	WashU_off_protocol	Relapsed_AML	67.0	Female	10.6	9.0	29	AML with myelodysplasia related changes		De novo		No	CRi		6.0	9.9	1:DECEASED	Adverse	complex	unknown
+mnm_washu_2016_UC1	Univ_Chicago	Relapsed_AML	63.0	Male	1.3	0.2	60		3 prior therapies	MDS		Yes	CR		4.0	52.5	0:LIVING	Adverse	Monosomy 7	1
+mnm_washu_2016_UC10	Univ_Chicago	Relapsed_AML	31.0	Female	2.0	0.1	15		3 prior therapies	De novo		Yes	PD		1.0	36.46666667	1:DECEASED	Int	Gain of Chromosome 10	0
+mnm_washu_2016_UC11	Univ_Chicago	Relapsed_AML	52.0	Female	11.8	2.0	40		7 prior therapies	De novo		Yes	PD		1.0	10.23333333	1:DECEASED	Int	46, XY del 20(q11.2q13.1)	0
+mnm_washu_2016_UC12	Univ_Chicago	Relapsed_AML	64.0	Female	11.0				3 prior therapies	De novo		No	PD		1.0	0.566666667	1:DECEASED	Not available	Not available	3
+mnm_washu_2016_UC13	Univ_Chicago	Relapsed_AML	34.0	Female	1.7	0.1	20		3 prior therapies	De novo		No	PD		3.0	20.9	0:LIVING	Int	46, XY	0
+mnm_washu_2016_UC14	Univ_Chicago	Relapsed_AML	75.0	Male	3.4	0.7	7		4 prior therapies	De novo		No	PD		1.0	1.033333333	1:DECEASED	Int	10% 46, XY  40% 47, XY +21  50% 46, idem, dic(7:17) (p13;p13)	2
+mnm_washu_2016_UC15	Univ_Chicago	Relapsed_AML	56.0	Male	1.1	0.1	10		2 prior therapies	De novo		No	PD		1.0	54.2	0:LIVING	Adverse	46, XX inv(7p) -> del(7q)	1
+mnm_washu_2016_UC16	Univ_Chicago	Relapsed_AML	67.0		1.4	0.1	5		3 prior therapies	MDS/MPD related		No	PD		4.0	8.033333333	1:DECEASED	Adverse	46, XY, del5q31 EGR1	0
+mnm_washu_2016_UC17	Univ_Chicago	Relapsed_AML	29.0		0.3	0.2	55		4 prior therapies	De novo		Yes	PD		1.0	26.23333333	0:LIVING	Int	45, XY +8p, -18 (5); 46, XY (4)	0
+mnm_washu_2016_UC18	Univ_Chicago	Relapsed_AML	65.0		4.0	0.0	15		2 prior therapies	MDS/MPD related		Yes	PD		2.0	4.233333333	1:DECEASED	Adverse	45 XY -2, add (3) (p21),  -5, -6, -6, del(7) (q22q34), der(9) t(3;9) (t21;t24), add (9) (q34), del(16) (q22)	1
+mnm_washu_2016_UC2	Univ_Chicago	Relapsed_AML	65.0		10.7	0.0	5		1 prior therapies	MDS/MPD related		Yes	CR		1.0	10.13333333	1:DECEASED	Int	46, XY t(6;9) (p23; q34)	0
+mnm_washu_2016_UC20	Univ_Chicago	Relapsed_AML	63.0		31.5	24.6	44		2 prior therapies, including prior induction with Aza/HiDAC/Mito (80 mg Aza x 5 days, then 160 mg x 5 days)	De novo		No	PD		2.0	8.0	1:DECEASED	Int	46, XX	2
+mnm_washu_2016_UC21	Univ_Chicago	Relapsed_AML	70.0		12.2	0.5	25		1 prior therapies	Therapy-related		No	SD		4.0	7.066666667000001	1:DECEASED	Int	46 XY	2
+mnm_washu_2016_UC22	Univ_Chicago	Relapsed_AML	67.0		0.2	0.0	85		4 prior therapies, including induction with Aza/HiDAC/mito (90 mg Aza x 5 days)	De novo		No	PD		2.0	9.066666667	1:DECEASED	Adverse	Mosiac male karyotype  46 XY (5%), 45,XY,dic(5;17)(q11.1;p11.1) (70%), 45,idem,del(3)(q21q27)(10%), 46,idem,+4(10%), 46,idem,+8(5%)	0
+mnm_washu_2016_UC23	Univ_Chicago	Relapsed_AML	70.0		0.8	0.1	1		2 prior therapies	MDS/MPD related		No	SD		7.0	12.36666667	1:DECEASED	Int	46 XY	0
+mnm_washu_2016_UC24	Univ_Chicago	Relapsed_AML	81.0		10.9	8.2	50		1 prior therapies	MDS/MPD related		No	SD		6.0	16.06666667	1:DECEASED	Int	46, XX	0
+mnm_washu_2016_UC26	Univ_Chicago	Relapsed_AML	80.0		23.3	12.1	52		2 prior therapies	De novo		No	PD		1.0	1.9	1:DECEASED	Int	46, XY	0
+mnm_washu_2016_UC3	Univ_Chicago	Relapsed_AML	71.0		5.4	0.0	19		4 prior therapies	MDS/MPD related		Yes	CR		3.0	29.63333333	1:DECEASED	Int	x46XY (25%), clone 46XY del (20)(q11.2q13.3)75%, 47,idem,+Y 5%.	unknown
+mnm_washu_2016_UC4	Univ_Chicago	Relapsed_AML	47.0		3.7	2.3	60		2 prior therapies	Therapy-related		Yes	CR		1.0	22.8	1:DECEASED	Good	46XX (35%), 46,XX,inv(16)(p13.1q22) (60%), 46,xx,t(8;11)(q11.1;p11.1)(5%)	0
+mnm_washu_2016_UC5	Univ_Chicago	Relapsed_AML	58.0		1.2	0.1	15		1 prior therapies	De novo		Yes	CR		7.0	21.63333333	1:DECEASED	Adverse	 deletion of chromosomes 2, 5, 7, 14, 22, +11, add9(q34), add16(q22), add17(p11.2).  	1
+mnm_washu_2016_UC6	Univ_Chicago	Relapsed_AML	68.0		5.8	0.0	17		1 prior therapies	Therapy-related		No	CR		4.0	15.76666667	1:DECEASED	Int	Abnormal female mosaic karyotype with 2 clones, no inv(16) or t(8;21). 	unknown
+mnm_washu_2016_UC7	Univ_Chicago	Relapsed_AML	42.0		1.7	0.3	68		4 prior therapies	De novo		No	PR		3.0	3.9	1:DECEASED	Good	46 XX t(8;21)(q22;q22)	unknown
+mnm_washu_2016_UC8	Univ_Chicago	Relapsed_AML	39.0		10.0	0.4	15		3 prior therapies	De novo		Yes	PD		4.0	7.966666667	1:DECEASED	Adverse	46, XY, t(11:19)(q23;p13.1)   (MLL-ELL)	1
+mnm_washu_2016_UC9	Univ_Chicago	Relapsed_AML	41.0		2.8	0.0	10		3 prior therapies	De novo		No	PD		1.0	4.966666667	1:DECEASED	Int	Trisomy 11, Subclone with Trisomy 11 & 13	1

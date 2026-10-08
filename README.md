@@ -27,6 +27,7 @@ Computations produce tables and configuration metadata. The repository contains 
 
 ```text
 configs/                      Experiment configurations
+data/                         Longitudinal input snapshots, provenance, and checksums
 docs/configuration.md         Input schemas, parameters, and workflow dependencies
 experiments/                  Thin command-line entry points
 src/relobstq_mhn/
@@ -39,7 +40,7 @@ src/relobstq_mhn/
 tests/                        Synthetic-data tests for core methods and workflows
 ```
 
-Input data and generated outputs are supplied locally. Dataset records, manuscript figures, and experiment result archives are not bundled with the code.
+The three longitudinal study input snapshots are bundled under `data/raw/`, with source notices and SHA-256 checksums. Restore them with `python -m experiments.install_data`; see [the data guide](data/README.md). GENIE raw records and patient-level derived inputs require provider access and are not bundled. Manuscript figures and experiment result archives are not included.
 
 ## Running the workflows
 

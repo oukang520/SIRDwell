@@ -9,7 +9,11 @@ dist/
 .DS_Store
 
 # Local inputs and generated results
-/data/
+/data/*
+!/data/README.md
+!/data/manifest.json
+!/data/sources.csv
+!/data/raw/
 /outputs/
 /results/
 /reference_results/

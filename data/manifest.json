@@ -1,0 +1,620 @@
+{
+  "schema_version": 1,
+  "files": [
+    {
+      "study_id": "difg_glass",
+      "filename": "LICENSE",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/LICENSE",
+          "sha256": "aa607179437132751f7c8fcd9f2b4ed97677ded9812ad97b99abd380ae77aec2",
+          "size_bytes": 455
+        }
+      ],
+      "sha256": "aa607179437132751f7c8fcd9f2b4ed97677ded9812ad97b99abd380ae77aec2",
+      "size_bytes": 455
+    },
+    {
+      "study_id": "difg_glass",
+      "filename": "README.md",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/README.md",
+          "sha256": "d9c1a73aabf84d17e9fa7f739dfbbdd87ba81d9d8844b4feb487e5d81d7f957f",
+          "size_bytes": 5877
+        }
+      ],
+      "sha256": "d9c1a73aabf84d17e9fa7f739dfbbdd87ba81d9d8844b4feb487e5d81d7f957f",
+      "size_bytes": 5877
+    },
+    {
+      "study_id": "difg_glass",
+      "filename": "meta_study.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/meta_study.txt",
+          "sha256": "4fffd19b5181ee7c37af2686c660b20175e298567119bfdf9299673b8f358b49",
+          "size_bytes": 486
+        }
+      ],
+      "sha256": "4fffd19b5181ee7c37af2686c660b20175e298567119bfdf9299673b8f358b49",
+      "size_bytes": 486
+    },
+    {
+      "study_id": "difg_glass",
+      "filename": "data_clinical_patient.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_clinical_patient.txt",
+          "sha256": "b0517cbba24b83351a3e8760c85317f4c8b5d63530c03127d4bc525a26f5b006",
+          "size_bytes": 22317
+        }
+      ],
+      "sha256": "b0517cbba24b83351a3e8760c85317f4c8b5d63530c03127d4bc525a26f5b006",
+      "size_bytes": 22317
+    },
+    {
+      "study_id": "difg_glass",
+      "filename": "meta_clinical_patient.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/meta_clinical_patient.txt",
+          "sha256": "98bb3b109874f91a732e3c5e572438fdcfe65a3044269494d58fd6c5659b05c5",
+          "size_bytes": 140
+        }
+      ],
+      "sha256": "98bb3b109874f91a732e3c5e572438fdcfe65a3044269494d58fd6c5659b05c5",
+      "size_bytes": 140
+    },
+    {
+      "study_id": "difg_glass",
+      "filename": "data_clinical_sample.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_clinical_sample.txt",
+          "sha256": "b7c1565d675459750b2f7063dd078bd1c876dd91a45a4ed903d772cb2f594c6b",
+          "size_bytes": 193397
+        }
+      ],
+      "sha256": "b7c1565d675459750b2f7063dd078bd1c876dd91a45a4ed903d772cb2f594c6b",
+      "size_bytes": 193397
+    },
+    {
+      "study_id": "difg_glass",
+      "filename": "meta_clinical_sample.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/meta_clinical_sample.txt",
+          "sha256": "7e54223399c8f1140d0372c21a91850f729072c124766ef34dc8e494c1f6c6c6",
+          "size_bytes": 138
+        }
+      ],
+      "sha256": "7e54223399c8f1140d0372c21a91850f729072c124766ef34dc8e494c1f6c6c6",
+      "size_bytes": 138
+    },
+    {
+      "study_id": "difg_glass",
+      "filename": "data_timeline_surgery.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_timeline_surgery.txt",
+          "sha256": "3c92fd327ae9a9f5bd0b11747e1eca49a1bfd6220c7e45209c8f420262e06ae3",
+          "size_bytes": 47731
+        }
+      ],
+      "sha256": "3c92fd327ae9a9f5bd0b11747e1eca49a1bfd6220c7e45209c8f420262e06ae3",
+      "size_bytes": 47731
+    },
+    {
+      "study_id": "difg_glass",
+      "filename": "meta_timeline_surgery.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/meta_timeline_surgery.txt",
+          "sha256": "b1e319f4f68e7c156207814de1eae8d8ed436a80d2bd30b2602ad6a105518708",
+          "size_bytes": 129
+        }
+      ],
+      "sha256": "b1e319f4f68e7c156207814de1eae8d8ed436a80d2bd30b2602ad6a105518708",
+      "size_bytes": 129
+    },
+    {
+      "study_id": "difg_glass",
+      "filename": "data_mutations.txt",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations.txt.gz.part001",
+          "sha256": "0de310ce078494c27d0a9bbc3c2c6702e1f01fc59016a10c9e853d98c3020d6d",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations.txt.gz.part002",
+          "sha256": "279ff5e3c092a921ac9c2c95e978eadb0e5dbae8ef0a362431367b7e469e75c4",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations.txt.gz.part003",
+          "sha256": "41cfe0255bcb504e310077f00acf51be8e83c7841af37c5897c25af65eb572bf",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations.txt.gz.part004",
+          "sha256": "f4a757aa0c88c2d778e2841c166ce9f097cb7dbccd2b38786eaff06cba4d00bd",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations.txt.gz.part005",
+          "sha256": "ecc017e387f8d6211d567cfc97b8965f144b716dc78455b4bffe2c4333ec8b11",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations.txt.gz.part006",
+          "sha256": "b5f87bcfe46d86e5082c29765f96b6c9443b24a0eb42cbae6eb3553091958c07",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations.txt.gz.part007",
+          "sha256": "0a7f176ac7ff138d4a1c5548b06b51383b2546964e8eb214964c3464966916ff",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations.txt.gz.part008",
+          "sha256": "ce6d6debea074c5029bcf7507bec230a9dab02008a194f6c9425fd101311a1b0",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations.txt.gz.part009",
+          "sha256": "2154585149097c07a7202f818896eecde79abcc8945b869d198e9560a4bb1e56",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations.txt.gz.part010",
+          "sha256": "0ee3d6ea88105ec5bbb85958c5ab6b8d25243789ee953aeefc7481ceaf023435",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations.txt.gz.part011",
+          "sha256": "5e06e3a8d019e64cc50cbc17668b22b5676946456486f52675266bba8baf65b0",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations.txt.gz.part012",
+          "sha256": "1d071a49f4e0a17e26f3052de52307c6457adefbabf62e6067b2efa02f17fb52",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations.txt.gz.part013",
+          "sha256": "090096ee6f06e37940881fdc034aeddaf92c70d88ac81581933f05451b750057",
+          "size_bytes": 3741163
+        }
+      ],
+      "sha256": "c167adb15fe669f41a2a80995f069e13b59b76fdd7161ead934de0878de45013",
+      "size_bytes": 417817255
+    },
+    {
+      "study_id": "difg_glass",
+      "filename": "data_mutations_1.txt",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations_1.txt.gz.part001",
+          "sha256": "84af94d1720d9a72c95b34221eceb7e363c3db36f6adc5557541de5c9e720dae",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations_1.txt.gz.part002",
+          "sha256": "443fe1bb0c2d24cac3ab4111466ed2f7fdf662abf124655faac087982619b992",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations_1.txt.gz.part003",
+          "sha256": "5c346e20fb5ed9b19a5a30422068d980eb5de84a8e2a7dc177347dcfc57de5c9",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations_1.txt.gz.part004",
+          "sha256": "777f4175b7dca79b5c80e3703a31fbc8c283ab261cab374439fee2b06dc31f9d",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations_1.txt.gz.part005",
+          "sha256": "3f41bd4c551b20439c8f489846234470f16e594de3f31c698f79286cfd537958",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations_1.txt.gz.part006",
+          "sha256": "947ce4dad22b905a6ed6925fa1a9cf0df9b571e0348a8fe848e88815b95c0ec9",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations_1.txt.gz.part007",
+          "sha256": "ea21c053600c8d005a9be944cb67c226abe6c3a19cafa6a6a9c152981a784c08",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations_1.txt.gz.part008",
+          "sha256": "826dfd17fef6fb8850c20e93aff3a5b73174edef61d19142ac70263507854750",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations_1.txt.gz.part009",
+          "sha256": "9ee94e9b5e6a1919885192ad19fc1ed381d225fac526c737741139a94ea4be58",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations_1.txt.gz.part010",
+          "sha256": "4289040872a5ea966353758f85b9f190834291c25387f7679518c56858f825de",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations_1.txt.gz.part011",
+          "sha256": "460d32f86fd9ee927ea45df262cd27ac1f83401df8df80cc48fcab65b05f752c",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations_1.txt.gz.part012",
+          "sha256": "2a57db2cb1b85f4df1cc46a451923ac914db2ecfa46819cc9ea8dabf835580f1",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations_1.txt.gz.part013",
+          "sha256": "0d986c4271ca13a8201f9e5707a9a135e89d63292ef11546319db14766d17aae",
+          "size_bytes": 8388608
+        },
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations_1.txt.gz.part014",
+          "sha256": "d8d5544e30c4385517732c4aa7c03087b4f7ff9e2591cb59c23b77e43eb6c60b",
+          "size_bytes": 1374919
+        }
+      ],
+      "sha256": "f8ada095b9e9020d6f2b40442ac31fd8013ce6f52ee801f81f8cbb0a76b1f4af",
+      "size_bytes": 454676775
+    },
+    {
+      "study_id": "difg_glass",
+      "filename": "data_mutations_2.txt",
+      "compression": "gzip",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/data_mutations_2.txt.gz.part001",
+          "sha256": "5b8b50afddcf7e9d984b6cf319f258548d16c8edbba9edb66980e1793dfcb29d",
+          "size_bytes": 2689576
+        }
+      ],
+      "sha256": "565c0e624b5978c3c22eed7c64db92c041234633c06e3083fad796209b17f1f7",
+      "size_bytes": 15020732
+    },
+    {
+      "study_id": "difg_glass",
+      "filename": "meta_mutations.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/difg_glass/meta_mutations.txt",
+          "sha256": "50320cd22a602311cbeab63cab6c1a86ef5330c5d56b03d00c5c2d140756751e",
+          "size_bytes": 323
+        }
+      ],
+      "sha256": "50320cd22a602311cbeab63cab6c1a86ef5330c5d56b03d00c5c2d140756751e",
+      "size_bytes": 323
+    },
+    {
+      "study_id": "coadread_mskcc",
+      "filename": "LICENSE",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/coadread_mskcc/LICENSE",
+          "sha256": "aa607179437132751f7c8fcd9f2b4ed97677ded9812ad97b99abd380ae77aec2",
+          "size_bytes": 455
+        }
+      ],
+      "sha256": "aa607179437132751f7c8fcd9f2b4ed97677ded9812ad97b99abd380ae77aec2",
+      "size_bytes": 455
+    },
+    {
+      "study_id": "coadread_mskcc",
+      "filename": "Readme.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/coadread_mskcc/Readme.txt",
+          "sha256": "0f414b40c6da118c75900177552010582d81a4d6b00c5639396983c40716ce91",
+          "size_bytes": 122
+        }
+      ],
+      "sha256": "0f414b40c6da118c75900177552010582d81a4d6b00c5639396983c40716ce91",
+      "size_bytes": 122
+    },
+    {
+      "study_id": "coadread_mskcc",
+      "filename": "data_clinical_patient.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/coadread_mskcc/data_clinical_patient.txt",
+          "sha256": "1ab633d485b8e9fd593a3f8ac955b5a2210b63d1aff6a2717c3ef0857798efd2",
+          "size_bytes": 1202
+        }
+      ],
+      "sha256": "1ab633d485b8e9fd593a3f8ac955b5a2210b63d1aff6a2717c3ef0857798efd2",
+      "size_bytes": 1202
+    },
+    {
+      "study_id": "coadread_mskcc",
+      "filename": "data_clinical_sample.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/coadread_mskcc/data_clinical_sample.txt",
+          "sha256": "5526127703d9ca039c5c2188ea97dc51e8c95234e5256ca88a84ae1fcd2cc04d",
+          "size_bytes": 19408
+        }
+      ],
+      "sha256": "5526127703d9ca039c5c2188ea97dc51e8c95234e5256ca88a84ae1fcd2cc04d",
+      "size_bytes": 19408
+    },
+    {
+      "study_id": "coadread_mskcc",
+      "filename": "data_gene_panel_matrix.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/coadread_mskcc/data_gene_panel_matrix.txt",
+          "sha256": "16813986e9fc0f568b9b76ca246b72b7d3e770be2814f3b8b9598810749b2131",
+          "size_bytes": 2641
+        }
+      ],
+      "sha256": "16813986e9fc0f568b9b76ca246b72b7d3e770be2814f3b8b9598810749b2131",
+      "size_bytes": 2641
+    },
+    {
+      "study_id": "coadread_mskcc",
+      "filename": "data_mutations.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/coadread_mskcc/data_mutations.txt",
+          "sha256": "ed4411b2d8e190434340a05782098edb0ea342c5209c129b5b596671f65564e7",
+          "size_bytes": 194067
+        }
+      ],
+      "sha256": "ed4411b2d8e190434340a05782098edb0ea342c5209c129b5b596671f65564e7",
+      "size_bytes": 194067
+    },
+    {
+      "study_id": "coadread_mskcc",
+      "filename": "meta_clinical_patient.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/coadread_mskcc/meta_clinical_patient.txt",
+          "sha256": "7b3a20a77a7fe58602e8cfcb1d8ab4599333c6a79cfac244c568ea7d2297c785",
+          "size_bytes": 144
+        }
+      ],
+      "sha256": "7b3a20a77a7fe58602e8cfcb1d8ab4599333c6a79cfac244c568ea7d2297c785",
+      "size_bytes": 144
+    },
+    {
+      "study_id": "coadread_mskcc",
+      "filename": "meta_clinical_sample.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/coadread_mskcc/meta_clinical_sample.txt",
+          "sha256": "e867cb60f2dcd9aa7adc68622b574f43eecf74437d371ab8e9bc0eb076de46cf",
+          "size_bytes": 142
+        }
+      ],
+      "sha256": "e867cb60f2dcd9aa7adc68622b574f43eecf74437d371ab8e9bc0eb076de46cf",
+      "size_bytes": 142
+    },
+    {
+      "study_id": "coadread_mskcc",
+      "filename": "meta_gene_panel_matrix.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/coadread_mskcc/meta_gene_panel_matrix.txt",
+          "sha256": "8b0215f40772ef5f4ffa8d0e216338384f05e7f2a3a033f54f04bd11f33bcde7",
+          "size_bytes": 153
+        }
+      ],
+      "sha256": "8b0215f40772ef5f4ffa8d0e216338384f05e7f2a3a033f54f04bd11f33bcde7",
+      "size_bytes": 153
+    },
+    {
+      "study_id": "coadread_mskcc",
+      "filename": "meta_mutations.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/coadread_mskcc/meta_mutations.txt",
+          "sha256": "579db80f9a6f9de96a5095fb831cdb0b3c7e4f93f96f3b2746dedca0620653e7",
+          "size_bytes": 316
+        }
+      ],
+      "sha256": "579db80f9a6f9de96a5095fb831cdb0b3c7e4f93f96f3b2746dedca0620653e7",
+      "size_bytes": 316
+    },
+    {
+      "study_id": "coadread_mskcc",
+      "filename": "meta_study.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/coadread_mskcc/meta_study.txt",
+          "sha256": "4baa826530802492566f8170456d5cd06b719881c375c1e98f2596f1b983547c",
+          "size_bytes": 352
+        }
+      ],
+      "sha256": "4baa826530802492566f8170456d5cd06b719881c375c1e98f2596f1b983547c",
+      "size_bytes": 352
+    },
+    {
+      "study_id": "mnm_washu_2016",
+      "filename": "LICENSE",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/mnm_washu_2016/LICENSE",
+          "sha256": "aa607179437132751f7c8fcd9f2b4ed97677ded9812ad97b99abd380ae77aec2",
+          "size_bytes": 455
+        }
+      ],
+      "sha256": "aa607179437132751f7c8fcd9f2b4ed97677ded9812ad97b99abd380ae77aec2",
+      "size_bytes": 455
+    },
+    {
+      "study_id": "mnm_washu_2016",
+      "filename": "Readme.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/mnm_washu_2016/Readme.txt",
+          "sha256": "0f414b40c6da118c75900177552010582d81a4d6b00c5639396983c40716ce91",
+          "size_bytes": 122
+        }
+      ],
+      "sha256": "0f414b40c6da118c75900177552010582d81a4d6b00c5639396983c40716ce91",
+      "size_bytes": 122
+    },
+    {
+      "study_id": "mnm_washu_2016",
+      "filename": "data_clinical_patient.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/mnm_washu_2016/data_clinical_patient.txt",
+          "sha256": "0ae7cb97b48c18b7c1e6984f07a8e381d9adda5f90d7eac8acab33c5453ac30f",
+          "size_bytes": 21941
+        }
+      ],
+      "sha256": "0ae7cb97b48c18b7c1e6984f07a8e381d9adda5f90d7eac8acab33c5453ac30f",
+      "size_bytes": 21941
+    },
+    {
+      "study_id": "mnm_washu_2016",
+      "filename": "data_clinical_sample.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/mnm_washu_2016/data_clinical_sample.txt",
+          "sha256": "8ee30081aa6589826692e5ac3e810594fc07fab169b71e1ef76194a9a15f353d",
+          "size_bytes": 15510
+        }
+      ],
+      "sha256": "8ee30081aa6589826692e5ac3e810594fc07fab169b71e1ef76194a9a15f353d",
+      "size_bytes": 15510
+    },
+    {
+      "study_id": "mnm_washu_2016",
+      "filename": "data_gene_panel_matrix.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/mnm_washu_2016/data_gene_panel_matrix.txt",
+          "sha256": "610758eec99e69e945a7abee04e3c730bf52d199400af824835d0d0dd72abffd",
+          "size_bytes": 3886
+        }
+      ],
+      "sha256": "610758eec99e69e945a7abee04e3c730bf52d199400af824835d0d0dd72abffd",
+      "size_bytes": 3886
+    },
+    {
+      "study_id": "mnm_washu_2016",
+      "filename": "data_mutations.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/mnm_washu_2016/data_mutations.txt",
+          "sha256": "5681caebbb93ae686cc0c9a56409efb4a469397e4874a6622dc1fd1205e2bdd8",
+          "size_bytes": 195328
+        }
+      ],
+      "sha256": "5681caebbb93ae686cc0c9a56409efb4a469397e4874a6622dc1fd1205e2bdd8",
+      "size_bytes": 195328
+    },
+    {
+      "study_id": "mnm_washu_2016",
+      "filename": "meta_clinical_patient.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/mnm_washu_2016/meta_clinical_patient.txt",
+          "sha256": "15f5aac012326a75440c3aff4cf2914f6891e43960c5a044c2b9332a9be1101d",
+          "size_bytes": 143
+        }
+      ],
+      "sha256": "15f5aac012326a75440c3aff4cf2914f6891e43960c5a044c2b9332a9be1101d",
+      "size_bytes": 143
+    },
+    {
+      "study_id": "mnm_washu_2016",
+      "filename": "meta_clinical_sample.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/mnm_washu_2016/meta_clinical_sample.txt",
+          "sha256": "1d662a988c0dae44c6c744251dbffc3b1734523f07d3d6eb7f482ce66618a809",
+          "size_bytes": 141
+        }
+      ],
+      "sha256": "1d662a988c0dae44c6c744251dbffc3b1734523f07d3d6eb7f482ce66618a809",
+      "size_bytes": 141
+    },
+    {
+      "study_id": "mnm_washu_2016",
+      "filename": "meta_gene_panel_matrix.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/mnm_washu_2016/meta_gene_panel_matrix.txt",
+          "sha256": "45f0fad20df66ea181e0036b2daecec901c7a2594bb8b41bca0546dd9b47203c",
+          "size_bytes": 153
+        }
+      ],
+      "sha256": "45f0fad20df66ea181e0036b2daecec901c7a2594bb8b41bca0546dd9b47203c",
+      "size_bytes": 153
+    },
+    {
+      "study_id": "mnm_washu_2016",
+      "filename": "meta_mutations.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/mnm_washu_2016/meta_mutations.txt",
+          "sha256": "01012d76bf1dd7b1137c0e35a8afea6eeb40a40a19a770ba181c7741ecd83586",
+          "size_bytes": 335
+        }
+      ],
+      "sha256": "01012d76bf1dd7b1137c0e35a8afea6eeb40a40a19a770ba181c7741ecd83586",
+      "size_bytes": 335
+    },
+    {
+      "study_id": "mnm_washu_2016",
+      "filename": "meta_study.txt",
+      "compression": "none",
+      "parts": [
+        {
+          "path": "data/raw/longitudinal/cbioportal/mnm_washu_2016/meta_study.txt",
+          "sha256": "63728c567e203d18c05cb826f771cda72fe81f390a605031b4ce561fa8dfbd59",
+          "size_bytes": 392
+        }
+      ],
+      "sha256": "63728c567e203d18c05cb826f771cda72fe81f390a605031b4ce561fa8dfbd59",
+      "size_bytes": 392
+    }
+  ]
+}
